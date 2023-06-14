@@ -36,15 +36,15 @@ The repo is using Laravel Sail and has been developed on Unbuntu but as Laravel 
 
 ### Overview
 
-PLease look at CSVReader
+Please look at CSVReader and CSVReaderTest. 
 
-Please put your csv file in storage/csv
+Please put your csv file in ```storage/app/csv```
 
-Please put your json file in storage/output
+Please put your json file in ```storage/app/output```
 
-Also please make sure the csv file is utf 8 :)
+Also, please make sure the CSV file is utf 8 :)
 
-THanks.
+Thanks.
 
 
 
