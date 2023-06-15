@@ -38,13 +38,18 @@ The repo is using Laravel Sail and has been developed on Unbuntu but as Laravel 
 
 Please look at CSVReader and CSVReaderTest. 
 
-Please put your csv file in ```storage/app/csv```
+Please put your CSV file in ```storage/app/csv```
 
-Please put your json file in ```storage/app/output```
+Please put your JSON file in ```storage/app/output```
 
-Also, please make sure the CSV file is utf 8 :)
+Also, please make sure the CSV file is UTF-8 :)
 
 Thanks.
+
+### Summary
+
+The task completed is now done in the GitHub repo using docker, so the environment should be the same for every developer. Also, now that it is in the private repo, it should be easier to test, as the other developers can drop the CSV file into the application and add it to the test case to test the output. The previous solution may have needed to be fixed as the wrong import may have been used or not included when the function was used in a different environment, or the OS encoded the CSV data in another format.
+
 
 
 
